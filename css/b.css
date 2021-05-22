@@ -20461,7 +20461,7 @@ div[class*='btn-'] a:hover {
 }
 
 section.internal-navigation {
-    background-color: #ffc72a;
+    background-color: #d46e01;
     -webkit-box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.2);
 }
@@ -22324,7 +22324,7 @@ h2.node-title.with-border {
 }
 
 section.title {
-    background-color: #c20430;
+    background-color: #880000;
 }
 
 section.title h1 {
