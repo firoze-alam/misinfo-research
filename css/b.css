@@ -1,3 +1,7 @@
+  @import url("https://use.typekit.net/nyg2gkn.css");
+  @import url("https://use.typekit.net/bot6ock.css");
+
+
 @font-face {
     font-family: 'ccafs-icons';
     src: url('https://d1azc1qln24ryf.cloudfront.net/9120/CCAFS-NEW/ccafs-icons.eot?lcccuz');
@@ -322,7 +326,9 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Titillium Web", sans-serif;
+    --font-family: acuta, serif;
+    --font-weight: 400;
+    --font-style: normal;
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -334,7 +340,7 @@
 }
 
 html {
-    font-family: sans-serif;
+    font-family: acuta, serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -355,7 +361,7 @@ section {
 
 body {
     margin: 0;
-    font-family: UCSGotham, gotham ssm a, gotham ssm b, trebuchet ms, sans-serif;;
+    font-family: acuta, serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -484,7 +490,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: acuta, serif;
     font-size: 1em;
 }
 
@@ -7891,7 +7897,7 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    font-family: UCSGotham, gotham ssm a, gotham ssm b, trebuchet ms, sans-serif;;
+    font-family: acuta, serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4;
@@ -8016,7 +8022,7 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    font-family: UCSGotham, gotham ssm a, gotham ssm b, trebuchet ms, sans-serif;;
+    font-family: acuta, serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.4;
@@ -16056,7 +16062,6 @@ form .form-type-textarea {
 }
 
 #header a.nav-link {
-    font-weight: 600;
     color: #000000;
     -webkit-transition: color 300ms ease-in-out;
     -o-transition: color 300ms ease-in-out;
@@ -16137,6 +16142,7 @@ form .form-type-textarea {
     -webkit-transition: color 300ms ease-in-out;
     -o-transition: color 300ms ease-in-out;
     transition: color 300ms ease-in-out;
+    font-size: 1rem;
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -16169,10 +16175,12 @@ form .form-type-textarea {
 }
 
 #header #block-mainnavigation .nav-link {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 400;
     z-index: 101;
     position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 #header #block-mainnavigation .nav-link.active,
@@ -16247,7 +16255,12 @@ form .form-type-textarea {
     -webkit-transition: color 300ms ease-in-out 300ms;
     -o-transition: color 300ms ease-in-out 300ms;
     transition: color 300ms ease-in-out 300ms;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
+
+
 
 @media (prefers-reduced-motion:reduce) {
 
@@ -16891,7 +16904,7 @@ header #search-block-form {
 .site-footer {
     background: #000000;
     color: #fff;
-    padding: 60px 0 15px 0;
+    padding: 15px 0 15px 0;
 }
 
 .site-footer h2 {
@@ -16978,9 +16991,9 @@ header #search-block-form {
     border-top: 2px solid #fff;
 }
 
-.site-footer .disclaimer {
+/* .site-footer .disclaimer {
     border-top: 1px solid #fff;
-}
+} */
 
 .site-footer .disclaimer h2 {
     margin-bottom: 0;
@@ -18832,6 +18845,10 @@ figure .credits {
 .stripe-slim .title-stripe {
     padding: 21px 0 21px 0;
     margin-bottom: 0;
+    font-family: fira-sans,
+    sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .title-centered .title-stripe {
@@ -18854,6 +18871,9 @@ figure .credits {
 .stripe.single-block-title h2 {
     margin-bottom: 18px;
     padding-left: 0;
+    font-family: fira-sans,
+    sans-serif;
+    color: #484747;
 }
 
 .path-frontpage section[class^="stripe-"].left-bg-1 {
@@ -20193,6 +20213,7 @@ div[class*='btn-'] a:hover {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    font-weight: normal;
 }
 
 .card .btn-more {
@@ -21158,6 +21179,8 @@ section.internal-navigation .internal-menu-wrapper ul li:first-child .nav-link {
     color: #3C2100;
     font-size: 0.875rem;
     font-weight: 200;
+    font-family: fira-sans,
+    sans-serif;
 }
 
 .metadata-field.year {
@@ -22334,6 +22357,9 @@ section.title h1 {
     letter-spacing: 5px;
     padding: 30px 0;
     text-transform: uppercase;
+    font-family: fira-sans,
+    sans-serif;
+    font-weight: normal;
 }
 
 section.title h1 a {
@@ -22819,7 +22845,7 @@ section.title.with-border {
 }
 
 .views-exposed-form .form-row .advanced-filters .form-type-select select option {
-    font-family: UCSGotham, gotham ssm a, gotham ssm b, trebuchet ms, sans-serif;;
+    font-family: acuta, serif;
 }
 
 .views-exposed-form .form-row .advanced-filters .radio,
@@ -24408,7 +24434,7 @@ progress::-moz-progress-bar {
     padding: 30px !important;
     background: #fff;
     border-radius: 10px;
-    font-family: UCSGotham, gotham ssm a, gotham ssm b, trebuchet ms, sans-serif; !important;
+    font-family: acuta, serif !important;
     font-size: 1rem !important;
 }
 
@@ -25455,7 +25481,7 @@ form .form-type-textarea {
 }
 
 html {
-    font-family: sans-serif;
+    font-family: acuta, serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -25478,7 +25504,7 @@ body {
     margin: 0;
     /* font-family: "Titillium Web",
     sans-serif; */
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: acuta, serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -25607,7 +25633,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-family: acuta, serif;
     font-size: 1em;
 }
 
@@ -40588,4 +40614,36 @@ a.text-dark:focus {
     display: flex;
 }
 
-.
+.slideshow-title {
+    font-family: fira-sans-2,
+    sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+
+    font-size: 4rem;
+    text-transform: Capitalize;
+}
+
+.title-stripe {
+    font-family: acuta,
+    serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-size: 2rem !important;
+}
+
+.section-title h2{
+    font-family: acuta,
+    serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-size: 3rem !important;
+}
+
+ .custom-nav-edit .nav-item a,
+ .custom-nav-edit .custom-link-edit a {
+     font-family: fira-sans,
+     sans-serif;
+} 
