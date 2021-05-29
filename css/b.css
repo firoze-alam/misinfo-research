@@ -15985,7 +15985,7 @@ form .form-type-textarea {
 
 #header .logo {
     position: absolute;
-    top: 0;
+    top: -50px;
     display: block;
     opacity: 1;
     -webkit-transition: opacity 300ms ease-in-out;
@@ -16280,9 +16280,9 @@ form .form-type-textarea {
     color: #ffc72a;
 }
 
-#header.with-slideshow.menu-closed .logo {
+/* #header.with-slideshow.menu-closed .logo {
     opacity: 0;
-}
+} */
 
 #header.with-slideshow.menu-closed .logo-white {
     opacity: 1;
